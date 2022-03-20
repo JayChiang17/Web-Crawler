@@ -20,6 +20,7 @@ WebDriverWait(driver, 5).until(
     EC.presence_of_all_elements_located(By.CLASS_NAME, "popularPrd")
 )
 
+
 button = driver.find_element_by_class_name("popularPrd")
 button.click()
 
